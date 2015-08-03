@@ -53,4 +53,4 @@ bower_components/
 ########################
 core_leancloud
 ########################
-leancloud.js
+config/leancloud.js

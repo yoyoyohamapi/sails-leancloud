@@ -40,7 +40,14 @@ module.exports.routes = {
   'get /todo': 'TodoController.index',
 
   // 创建一条todo
-  'post /todo/create': 'TodoController.create'
+  'post /todo/create': 'TodoController.create',
+
+  // 进入文件上传测试页面
+  'get /file': {
+    view: 'file/file'
+  },
+  // 上传文件表单
+  'post /file/upload': 'FileController.upload'
 
   /***************************************************************************
   *                                                                          *

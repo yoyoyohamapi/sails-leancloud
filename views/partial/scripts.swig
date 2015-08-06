@@ -7,5 +7,5 @@
 </script>
 
 {# requirejs  #}
-<script data-min="{{ path.script }}/common/main" src="{{ path.bower }}/requirejs/require.js"></script> 
+<script data-main="{{ path.script }}/common/main" src="{{ path.bower }}/requirejs/require.js"></script>
 

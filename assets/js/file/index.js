@@ -1,4 +1,4 @@
-define(function(){
+define(['jquery-form'],function(){
     return {
         run: function(){
             $("button").click(function(){

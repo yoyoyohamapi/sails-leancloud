@@ -1,7 +1,7 @@
 {% extends '../partial/layout.swig' %}
-{% set module='/file/index' %}
+{% set module='file/index' -%}
 {% block title %}文件上传测试{% endblock %}
-{% block content %}
+{% block content -%}
 <div style="margin:0 auto">
     <form action="/file/upload" method="post">
         <label for="file">文件</label>
@@ -11,4 +11,4 @@
         <button type="button">上传</button>
     </form>
 </div>
-{% endblock %}
+{%- endblock %}

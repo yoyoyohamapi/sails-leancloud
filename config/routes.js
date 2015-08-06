@@ -44,7 +44,7 @@ module.exports.routes = {
 
   // 进入文件上传测试页面
   'get /file': {
-    view: 'file/file'
+    view: 'file/index'
   },
   // 上传文件表单
   'post /file/upload': 'FileController.upload'
